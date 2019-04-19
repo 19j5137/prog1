@@ -1,0 +1,7 @@
+# coding: utf-8
+# Your code here!
+#for x in range(3):
+    #print("Hello")
+    #print("World")
+for x in range(-10,11): 
+    print(x, end=" ")
