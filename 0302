@@ -1,0 +1,4 @@
+# coding: utf-8
+# Your code here!
+for x in range(3):
+    print("Hello"
