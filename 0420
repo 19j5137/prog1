@@ -1,0 +1,7 @@
+a=66
+b=99
+print(a,b)
+c=a
+a=b
+b=c
+print(a,b)
