@@ -1,0 +1,9 @@
+a=20853
+b=3843
+c=a%b
+print(c)
+for x in range(4):
+    a=b
+    b=c
+    c=a%b
+    print(c)
