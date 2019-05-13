@@ -1,0 +1,11 @@
+for n in range(2,7):
+    for r in range(1,n):
+        bunbo=1
+        for x in range(1,r):
+            bunbo=bunbo*(x+1)
+        bunshi=1
+        for y in range(n,n-r,-1):
+            bunshi=bunshi*y
+        combination=bunshi/bunbo
+        print(combination,end=" ")
+    print() 
