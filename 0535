@@ -1,0 +1,9 @@
+for r in range(1,6):
+    n=6
+    bunshi=1
+    for y in range(n,n-r,-1):
+        bunshi=bunshi*y
+    bunbo=1
+    for x in range(1,r+1):
+        bunbo=bunbo*x
+    print(bunshi/bunbo,end=" ")
