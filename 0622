@@ -1,0 +1,13 @@
+h=173.5
+w=75.5
+b=10000*w/h**2
+if(b<=18.5):
+    if(18.5<b<=25.0):
+        if(25.0<b<=30.0):
+            print("Class A",end=" ")
+        else:
+            print("Class B",end=" ")
+    else:
+        print("Class C",end=" ")
+else:
+    print("Class X",end=" ")
