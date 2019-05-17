@@ -10,4 +10,4 @@ if(b<=18.5):
     else:
         print("Class C",end=" ")
 else:
-    print("Class X",end=" ")
+    print("Class D",end=" ")
