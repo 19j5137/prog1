@@ -4,3 +4,5 @@ def hoge():
         for x in range(y+1):
             print("*",end=" ")
         print()
+
+hoge()
