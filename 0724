@@ -1,0 +1,16 @@
+def emoji(eye):
+    print("(",end="")
+    print(eye,end="")
+    print("_",end="")
+    print(eye,end="")
+    print(")",end="")
+def emoji_table(m,n):
+    for y in range(4):
+        for x in range(8):
+            if((y+x)%2==1):
+                emoji("*")
+            else:
+                emoji("-")
+        print()
+    
+emoji_table(8,4)
