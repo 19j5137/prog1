@@ -1,0 +1,5 @@
+def ave_4(a,b,c,d):
+    return (a+b+c+d)/4
+    
+r=ave_4(1,2,3,4)
+print("averange is", r)
